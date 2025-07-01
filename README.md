@@ -24,7 +24,7 @@ Supports conversions for **length**, **temperature**, and **currency**.
 
 
 ```bash
-python unit_converter.py
+python3 unit_converter.py
 ```
 
 Then follow the prompts like:
