@@ -50,6 +50,6 @@ To unit: f
 
 ### Currency:
 - `usd`, `inr`, `eur`, `gbp`, `jpy`  
-  *(Note: Exchange rates are hardcoded)*
+  *(Note: Exchange rates are hardcoded and based on values as of July 1, 2025)*
 
 ---
