@@ -20,7 +20,8 @@ Supports conversions for **length**, **temperature**, and **currency**.
 ### Requirements:
 - Python 3.x
 
-### Run it:
+### How to run it:
+
 
 ```bash
 python unit_converter.py
@@ -35,7 +36,6 @@ From unit: c
 To unit: f
 100.0 c = 212.0 f
 ```
-
 ---
 
 ## 🧪 Supported Units
