@@ -41,7 +41,6 @@ def convert_temp(val, from_unit, to_unit):
     return None
 
 def convert_currency(val, from_unit, to_unit):
-    # Hardcoded currency exchange rates
     rates = {
         "usd": 1.0,
         "inr": 85.56,
@@ -58,7 +57,7 @@ def convert_currency(val, from_unit, to_unit):
 
 def main():
     print("Unit Converter – Length / Temperature / Currency")
-    print("Type 'exit' at any prompt to quit.\n")
+    print("Type 'exit' anytime to quit.\n")
 
     while True:
         conv_type = input("Choose type (length / temp / currency): ").strip().lower()
@@ -97,7 +96,7 @@ def main():
             result = None
 
         if result is None:
-            print("Conversion failed. Units may be wrong.")
+            print("Conversion failed. Inputs may be wrong.")
         else:
             print(f"{value} {from_unit} = {round(result, 4)} {to_unit}\n")
 
